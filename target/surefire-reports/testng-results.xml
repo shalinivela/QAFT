@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<h2>Test conducted on <font color='red'>Chrome</font> browser.</h2>]]>
+    </line>
+    <line>
+      <![CDATA[go to home page]]>
+    </line>
+    <line>
+      <![CDATA[Login with Crendentials]]>
+    </line>
+    <line>
+      <![CDATA[Click on submit]]>
+    </line>
+    <line>
+      <![CDATA[User should be on the dashboard page:PeopleLinx]]>
+    </line>
+    <line>
+      <![CDATA[User should be on the dashboard page.]]>
+    </line>
+    <line>
+      <![CDATA[Validated that the page has loaded]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2018-05-08T15:16:46Z" name="Suite" finished-at="2018-05-08T15:18:09Z" duration-ms="83166">
+    <groups>
+    </groups>
+    <test started-at="2018-05-08T15:16:46Z" name="LoginTest" finished-at="2018-05-08T15:18:09Z" duration-ms="83166">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="openTest(org.testng.ITestContext)[pri:0, instance:tests.LoginTest@385c9627]" started-at="2018-05-08T11:16:46Z" name="openTest" finished-at="2018-05-08T11:16:50Z" duration-ms="3833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5217f3d0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<h2>Test conducted on <font color='red'>Chrome</font> browser.</h2>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openTest -->
+        <test-method signature="logInToSocial()[pri:0, instance:tests.LoginTest@385c9627]" started-at="2018-05-08T11:16:50Z" name="logInToSocial" finished-at="2018-05-08T11:18:05Z" duration-ms="75048" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[go to home page]]>
+            </line>
+            <line>
+              <![CDATA[Login with Crendentials]]>
+            </line>
+            <line>
+              <![CDATA[Click on submit]]>
+            </line>
+            <line>
+              <![CDATA[User should be on the dashboard page:PeopleLinx]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logInToSocial -->
+        <test-method signature="verifyPageLoaded()[pri:0, instance:tests.LoginTest@385c9627]" started-at="2018-05-08T11:18:05Z" name="verifyPageLoaded" finished-at="2018-05-08T11:18:06Z" depends-on-methods="tests.LoginTest.logInToSocial" duration-ms="1157" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User should be on the dashboard page.]]>
+            </line>
+            <line>
+              <![CDATA[Validated that the page has loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyPageLoaded -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@385c9627]" started-at="2018-05-08T11:18:06Z" name="teardown" finished-at="2018-05-08T11:18:09Z" duration-ms="3098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- Suite -->
+</testng-results>

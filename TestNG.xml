@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite"  >
+
+
+
+<parameter name="browser" value="googlechrome" />
+	<parameter name="env" value="https://test1." />
+
+	<parameter name="server" value="peoplelinx.com/" />
+	<parameter name="shortcut" value="login/" />
+	<parameter name="user" value="skannan@frontlineselling.com" />
+	<parameter name="password" value="Shaloo80" />
+	
+	
+	
+	
+    <test name="LoginTest">
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+</suite>

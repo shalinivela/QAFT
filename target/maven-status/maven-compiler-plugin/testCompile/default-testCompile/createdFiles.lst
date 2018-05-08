@@ -1,0 +1,8 @@
+GenericUtility\TestConfig.class
+pages\BasePage.class
+GenericUtility\TestUtil.class
+GenericUtility\AppPropExtractor.class
+pages\LoginPage.class
+tests\BaseTest2.class
+pages\HomePage.class
+tests\LoginTest.class
