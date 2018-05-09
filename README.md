@@ -1,5 +1,4 @@
 # POMJAVAExample
 Basic POM Example
-Article Link: https://www.swtestacademy.com/page-object-model-java/
-
-For generics, go here: https://www.swtestacademy.com/page-object-model-java-generics/
+Article Link on POM:  https://www.swtestacademy.com/page-object-model-java/
+Article link on Testng and Maven :http://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html
